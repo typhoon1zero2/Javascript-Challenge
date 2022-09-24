@@ -17,3 +17,7 @@ console.log("connected")
 //     return sum
 //   }
 //   console.log(sumArray([2,4,5]))
+
+/*
+    To open console in chrome press Ctrl + Shift + J (Cmd + Option + J on Mac)
+*/
