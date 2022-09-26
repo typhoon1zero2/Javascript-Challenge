@@ -1,5 +1,7 @@
-console.log("connected")
+console.log("connected to hello world")
 
+// in line comment
+/**  multi line comment
 // const maxOfThree = (num1, num2, num3) => {
 //     const array = [num1, num2, num3]
 //     array.sort((a,b)=>{
@@ -20,4 +22,8 @@ console.log("connected")
 
 /*
     To open console in chrome press Ctrl + Shift + J (Cmd + Option + J on Mac)
+*/
+
+/* 
+    Data Types: undefined. null, boolean, string, symbol, number, and object
 */
