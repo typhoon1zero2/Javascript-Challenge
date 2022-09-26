@@ -26,4 +26,12 @@ console.log("connected to hello world")
 
 /* 
     Data Types: undefined. null, boolean, string, symbol, number, and object
+    undefined - is something that hasn't defined.
+    null - nothing set this to be something and thing is nothing
+    boolean - true or false
+    symbols is an immutable primitive value that is unique
+    object can store a lot of different key value pairs
+    const is a variable should never change
 */
+
+/* Storing Values with Assignment Operator */
