@@ -35,3 +35,4 @@ console.log("connected to hello world")
 */
 
 /* Storing Values with Assignment Operator */
+/* end all lines in JS with a semicolon*/
