@@ -37,10 +37,14 @@ console.log("connected to hello world")
 /* Storing Values with Assignment Operator */
 /* end all lines in JS with a semicolon*/
 
-let a;
-let b = 2;
-console.log(a);
-a = 7;
+// let a;
+// let b = 2;
+// console.log(a);
+// a = 7;
 
-b = a;
-console.log(a);
+// b = a;
+// console.log(a);
+
+/* Initializing Variables w/Assignment Operator */
+ let a = 9;
+ 
