@@ -46,13 +46,15 @@ console.log("connected to hello world")
 // console.log(a);
 
 /* Initializing Variables w/Assignment Operator */
- let a;
- let b;
- let c;
+ let a = 5;
+ let b = 10 ;
+ let c = "I am a string";
 
  a = a + 1;
  b = b + 5;
  c = c + " String! "
-
+ console.log (a);
+ console.log (b);
+ console.log (c);
  
  
