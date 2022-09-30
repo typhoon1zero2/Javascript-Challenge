@@ -72,6 +72,10 @@ console.log("connected to hello world")
 let sum = 10 + 10;
 console.log(sum)
 
+//add
+let difference = 45 - 30 ;
+console.log(difference)
+
 
 
 
