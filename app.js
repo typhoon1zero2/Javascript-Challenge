@@ -68,6 +68,10 @@ console.log("connected to hello world")
 
 //  console.log(studlyCapVar,properCamelCase, titleCaseOver)
 
+//sum
+let sum = 10 + 10;
+console.log(sum)
+
 
 
 
