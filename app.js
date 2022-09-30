@@ -46,26 +46,27 @@ console.log("connected to hello world")
 // console.log(a);
 
 /* Initializing Variables w/Assignment Operator */
- let a = 5;
- let b = 10 ;
- let c = "I am a string";
+//  let a = 5;
+//  let b = 10 ;
+//  let c = "I am a string";
 
- a = a + 1;
- b = b + 5;
- c = c + " String! "
- console.log (a);
- console.log (b);
- console.log (c);
+//  a = a + 1;
+//  b = b + 5;
+//  c = c + " String! "
+//  console.log (a);
+//  console.log (b);
+//  console.log (c);
  
- let studlyCapVar;
- let properCamelCase;
- let titleCaseOver;
+// Declarations
+//  let studlyCapVar;
+//  let properCamelCase;
+//  let titleCaseOver;
+// Assignment
+//  studlyCapVar = 10;
+//  properCamelCase = "A String";
+//  titleCaseOver = 9000;
 
- studlyCapVar = 10;
- properCamelCase = "A String";
- titleCaseOver = 9000;
-
- console.log(studlyCapVar,properCamelCase, titleCaseOver)
+//  console.log(studlyCapVar,properCamelCase, titleCaseOver)
 
 
 
