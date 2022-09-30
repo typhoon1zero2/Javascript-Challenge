@@ -85,6 +85,13 @@ console.log(product);
 let quotient = 66 / 3;
 console.log(quotient);
 
+//increment number
+let myIncr  = 87;
+
+//only change code below this line
+myIncr = myIncr + 1;
+console.log(myIncr);
+
 
 
 
