@@ -73,8 +73,13 @@ let sum = 10 + 10;
 console.log(sum)
 
 //add
-let difference = 45 - 30 ;
+let difference = 45 - 30;
 console.log(difference)
+
+//multi
+let product = 8 * 10;
+console.log(product);
+
 
 
 
