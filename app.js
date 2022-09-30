@@ -80,6 +80,11 @@ console.log(difference)
 let product = 8 * 10;
 console.log(product);
 
+//dividing
+
+let quotient = 66 / 3;
+console.log(quotient);
+
 
 
 
