@@ -93,9 +93,9 @@ myIncr = myIncr + 200;
 console.log(myIncr);
 
 //There are two ways to create an array...
-let nums = new Array(2, 4, 18);
+//let nums = new Array(2, 4, 18);
 // using Array Literal syntax (recommended best practice)
-//let nums = [2, 4, 18];
+let nums = [2, 4, 18];
 console.log(nums)
 
 
