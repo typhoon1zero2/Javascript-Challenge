@@ -98,6 +98,7 @@ console.log(myIncr);
 let nums = [2, 4, 18];
 console.log(nums)
 
+//Accessing Elements in an Array
 
 
 
