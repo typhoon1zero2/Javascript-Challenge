@@ -99,13 +99,23 @@ let nums = [2, 4, 18];
 console.log(nums)
 
 //Accessing Elements in an Array
-/*We access elements in an array using square bracket notation, passing in the "index" (position) of the element you want to access:*/
 
+/*We access elements in an array using square bracket notation, passing in the "index" (position) of the element you want to access:*/
 let movies = ['Caddyshack', 'Interstellar', 'Scarface'];
 let firstMovie = movies[0];  // 'Caddyshack'
 
-console.log(firstMovie)
+// console.log(firstMovie)
+/*
+Since when is 0the first item in anything? Since computer science came along!
+Internally, programs prefer to think in terms of "offsets" in memory. Thus, we access the first item using an offset of zero - arrays are "zero-based" in JS.
+*/
 
+/*
+    We can add elements to the end of an array using the push method:
+*/
+
+movies.push('Trading Places', 'Antitrust');
+console.log(movies)
 
 
 
