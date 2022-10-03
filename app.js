@@ -112,6 +112,7 @@ Internally, programs prefer to think in terms of "offsets" in memory. Thus, we a
 
 /*
     We can add elements to the end of an array using the push method:
+    Note that more than one element can be added at a time.
 */
 
 movies.push('Trading Places', 'Antitrust');
