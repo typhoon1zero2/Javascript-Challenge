@@ -99,6 +99,12 @@ let nums = [2, 4, 18];
 console.log(nums)
 
 //Accessing Elements in an Array
+/*We access elements in an array using square bracket notation, passing in the "index" (position) of the element you want to access:*/
+
+let movies = ['Caddyshack', 'Interstellar', 'Scarface'];
+let firstMovie = movies[0];  // 'Caddyshack'
+
+console.log(firstMovie)
 
 
 
