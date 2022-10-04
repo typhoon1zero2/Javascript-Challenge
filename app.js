@@ -89,8 +89,8 @@ console.log(quotient);
 let myIncr  = 87;
 
 //only change code below this line
-myIncr =  200;
-myIncr++
+myIncr =  400;
+myIncr--
 console.log(myIncr);
 
 //There are two ways to create an array...
