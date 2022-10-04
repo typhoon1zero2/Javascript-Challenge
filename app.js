@@ -68,30 +68,43 @@ console.log("connected to hello world")
 
 //  console.log(studlyCapVar,properCamelCase, titleCaseOver)
 
-//sum
-let sum = 10 + 10;
-console.log(sum)
+ //sum
+// let sum = 10 + 10;
+// console.log(sum)
 
 //add
-let difference = 45 - 30;
-console.log(difference)
+// let difference = 45 - 30;
+// console.log(difference)
 
 //multi
-let product = 8 * 10;
-console.log(product);
+// let product = 8 * 10;
+// console.log(product);
 
 //dividing
 
-let quotient = 66 / 3;
-console.log(quotient);
+// let quotient = 66 / 3;
+// console.log(quotient);
 
 //increment number
-let myIncr  = 87;
+// let myIncr  = 87;
 
 //only change code below this line
-myIncr =  400;
-myIncr--
-console.log(myIncr);
+// myIncr =  400;
+// myIncr++
+// console.log(myIncr);
+
+//let ourDecimal = 5.7;
+
+//only change code below
+//let myDecimal = 0.009;
+
+// let product = 2.0 * 2.5;
+// console.log(product)
+
+let quotient = 4.4 / 4.0;
+console.log(quotient)
+
+
 
 //There are two ways to create an array...
 //let nums = new Array(2, 4, 18);
