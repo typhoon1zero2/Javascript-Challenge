@@ -101,8 +101,12 @@ console.log("connected to hello world")
 // let product = 2.0 * 2.5;
 // console.log(product)
 
-let quotient = 4.4 / 4.0;
-console.log(quotient)
+// let quotient = 4.4 / 4.0;
+// console.log(quotient)
+
+let remainder;
+remainder = 11 % 3;
+console.log(remainder)
 
 
 
