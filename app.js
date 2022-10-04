@@ -89,20 +89,21 @@ console.log(quotient);
 let myIncr  = 87;
 
 //only change code below this line
-myIncr = myIncr + 200;
+myIncr =  200;
+myIncr++
 console.log(myIncr);
 
 //There are two ways to create an array...
 //let nums = new Array(2, 4, 18);
 // using Array Literal syntax (recommended best practice)
-let nums = [2, 4, 18];
-console.log(nums)
+// let nums = [2, 4, 18];
+// console.log(nums)
 
 //Accessing Elements in an Array
 
 /*We access elements in an array using square bracket notation, passing in the "index" (position) of the element you want to access:*/
-let movies = ['Caddyshack', 'Interstellar', 'Scarface'];
-let firstMovie = movies[0];  // 'Caddyshack'
+// let movies = ['Caddyshack', 'Interstellar', 'Scarface'];
+// let firstMovie = movies[0];  // 'Caddyshack'
 
 // console.log(firstMovie)
 /*
@@ -115,8 +116,8 @@ Internally, programs prefer to think in terms of "offsets" in memory. Thus, we a
     Note that more than one element can be added at a time.
 */
 
-movies.push('Trading Places', 'Antitrust');
-console.log(movies)
+// movies.push('Trading Places', 'Antitrust');
+// console.log(movies)
 
 
 
