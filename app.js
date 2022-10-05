@@ -104,9 +104,9 @@ console.log("connected to hello world")
 // let quotient = 4.4 / 4.0;
 // console.log(quotient)
 
-let remainder;
-remainder = 11 % 3;
-console.log(remainder)
+// let remainder;
+// remainder = 11 % 3;
+// console.log(remainder)
 
 
 
@@ -136,6 +136,16 @@ Internally, programs prefer to think in terms of "offsets" in memory. Thus, we a
 // movies.push('Trading Places', 'Antitrust');
 // console.log(movies)
 
+
+//Compound Assignment w/ augmented addition
+let a = 3;
+let b = 17;
+let c = 12;
+//only modify code below
+
+a = a + 12; // or a += 12
+b = 9 + b; // b += 9
+c = c + 7; // c += 7
 
 
 
