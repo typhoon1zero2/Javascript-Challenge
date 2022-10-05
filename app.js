@@ -144,10 +144,14 @@ let c = 12;
 //only modify code below
 
 //a = a + 12;
-a += 12
-b = 9 + b; // b += 9
-c = c + 7; // c += 7
-console.log(a)
+//a += 12
+//b = 9 + b; // b += 9
+//c = c + 7; // c += 7
+//console.log(a)
 
+//Compound Assignment w/ augmented addition
+a = a - 6; // a-= 6
+b = b - 15; // b-= 15;
+c = c - 1; // c -= 1
 
 
