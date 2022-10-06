@@ -119,8 +119,8 @@ console.log("connected to hello world")
 //Accessing Elements in an Array
 
 /*We access elements in an array using square bracket notation, passing in the "index" (position) of the element you want to access:*/
-// let movies = ['Caddyshack', 'Interstellar', 'Scarface'];
-// let firstMovie = movies[0];  // 'Caddyshack'
+ let movies = ['Caddyshack', 'Interstellar', 'Scarface'];
+ let firstMovie = movies[0];  // 'Caddyshack'
 
 // console.log(firstMovie)
 /*
@@ -135,7 +135,9 @@ Internally, programs prefer to think in terms of "offsets" in memory. Thus, we a
 
 // movies.push('Trading Places', 'Antitrust');
 // console.log(movies)
-
+//We can also add to the front of an array with unshift:
+movies.unshift('Star Wars');
+console.log(movies)
 
 //Compound Assignment w/ augmented addition
 let a = 3;
@@ -150,8 +152,8 @@ let c = 12;
 //console.log(a)
 
 //Compound Assignment w/ augmented addition
-a = a - 6; // a-= 6
-b = b - 15; // b-= 15;
-c = c - 1; // c -= 1
+//a = a - 6; // a-= 6
+//b = b - 15; // b-= 15;
+//c = c - 1; // c -= 1
 
 
