@@ -137,12 +137,16 @@ Internally, programs prefer to think in terms of "offsets" in memory. Thus, we a
 // console.log(movies)
 //We can also add to the front of an array with unshift:
 movies.unshift('Star Wars');
-console.log(movies)
+//console.log(movies)
+/* Removing Elements from an Array */
+let movie = movies.pop();
+console.log(movie)
+
 
 //Compound Assignment w/ augmented addition
-let a = 3;
-let b = 17;
-let c = 12;
+// let a = 3;
+// let b = 17;
+// let c = 12;
 //only modify code below
 
 //a = a + 12;
