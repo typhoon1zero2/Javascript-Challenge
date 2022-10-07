@@ -139,8 +139,10 @@ Internally, programs prefer to think in terms of "offsets" in memory. Thus, we a
 movies.unshift('Star Wars');
 //console.log(movies)
 /* Removing Elements from an Array */
-let movie = movies.pop();
-console.log(movie)
+//let movie = movies.pop();
+//We can also remove from the front of an array with shift:
+movie = movies.shift();
+console.log(movies)
 
 
 //Compound Assignment w/ augmented addition
