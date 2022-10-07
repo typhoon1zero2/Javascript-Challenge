@@ -141,7 +141,7 @@ movies.unshift('Star Wars');
 /* Removing Elements from an Array */
 //let movie = movies.pop();
 //We can also remove from the front of an array with shift:
-movie = movies.shift();
+movies = movies.shift();
 console.log(movies)
 
 
