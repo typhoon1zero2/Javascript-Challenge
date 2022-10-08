@@ -169,4 +169,9 @@ Internally, programs prefer to think in terms of "offsets" in memory. Thus, we a
 //unshift -> [...] <- push
 //The "shorter" named ones remove
 //shift <- [...] -> pop/
-
+/*
+Add/Remove Elements to/from Anywhere in the Array
+The Array.prototype.splice method is capable of adding and/or removing any number of elements to/from an array with a single line of code!
+splice has a syntax of: array.splice(start, deleteCount, newItem1, newItem2...)
+Examples of adding/removing elements with splice:
+*/
