@@ -136,13 +136,13 @@ Internally, programs prefer to think in terms of "offsets" in memory. Thus, we a
 // movies.push('Trading Places', 'Antitrust');
 // console.log(movies)
 //We can also add to the front of an array with unshift:
-movies.unshift('Star Wars');
+//movies.unshift('Star Wars');
 //console.log(movies)
 /* Removing Elements from an Array */
 //let movie = movies.pop();
 //We can also remove from the front of an array with shift:
-movies = movies.shift();
-console.log(movies)
+// movies = movies.shift();
+// console.log(movies)
 
 
 //Compound Assignment w/ augmented addition
@@ -162,4 +162,11 @@ console.log(movies)
 //b = b - 15; // b-= 15;
 //c = c - 1; // c -= 1
 
+
+//Remembering unshift& shift
+//push& pop are easy to remember, but unshift& shift are not so clear
+//The "longer" named methods do the same thing (add to an array)
+//unshift -> [...] <- push
+//The "shorter" named ones remove
+//shift <- [...] -> pop/
 
