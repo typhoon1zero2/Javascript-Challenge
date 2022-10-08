@@ -175,3 +175,7 @@ The Array.prototype.splice method is capable of adding and/or removing any numbe
 splice has a syntax of: array.splice(start, deleteCount, newItem1, newItem2...)
 Examples of adding/removing elements with splice:
 */
+
+movies => [ 'Caddyshack', 'Interstellar', 'Scarface', 'Trading Places' ]
+let removedMovies = movies.splice(3, 1, 'Spaceballs', 'Alien');
+console.log(movies)
