@@ -187,6 +187,11 @@ movie => [ 'Caddyshack', 'Interstellar', 'Scarface', 'Trading Places' ]
 // movies.forEach(function(movie) {
 // 	console.log(movie);
 // });
+//You can also access the index of each iteration:
 movies.forEach(function(movie, idx) {
 	console.log(idx + ') ' + movie);
 });
+
+/*
+Note that it's a good practice to name the parameter that accepts each element as the singular of the array, or simply the first letter of the array variable (movie or m for the example above)
+*/
