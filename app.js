@@ -184,6 +184,9 @@ movie => [ 'Caddyshack', 'Interstellar', 'Scarface', 'Trading Places' ]
 // removedMovies => []
 // movies => [ 'Spaceballs', 'The Sting', 'Alien' ]
 // console.log(movies)
-movies.forEach(function(movie) {
-	console.log(movie);
+// movies.forEach(function(movie) {
+// 	console.log(movie);
+// });
+movies.forEach(function(movie, idx) {
+	console.log(idx + ') ' + movie);
 });
