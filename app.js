@@ -176,7 +176,7 @@ splice has a syntax of: array.splice(start, deleteCount, newItem1, newItem2...)
 Examples of adding/removing elements with splice:
 */
 
-movie => [ 'Caddyshack', 'Interstellar', 'Scarface', 'Trading Places' ]
+// movie => [ 'Caddyshack', 'Interstellar', 'Scarface', 'Trading Places' ]
 //let removedMovies = movies.splice(3, 1, 'Spaceballs', 'Alien');
 //console.log(movies)
 // movies => [ 'Spaceballs', 'Alien' ]
@@ -188,10 +188,16 @@ movie => [ 'Caddyshack', 'Interstellar', 'Scarface', 'Trading Places' ]
 // 	console.log(movie);
 // });
 //You can also access the index of each iteration:
-movies.forEach(function(movie, idx) {
-	console.log(idx + ') ' + movie);
-});
+// movies.forEach(function(movie, idx) {
+// 	console.log(idx + ') ' + movie);
+// });
 
 /*
 Note that it's a good practice to name the parameter that accepts each element as the singular of the array, or simply the first letter of the array variable (movie or m for the example above)
 */
+
+//ES2015 provides the for...ofloop for iterating over the elements of arrays and other iterables such as strings:
+// for(let movie of movies) {
+// 	if (movie === 'The Last Airbender') break;
+// 	console.log(movie);
+// }
