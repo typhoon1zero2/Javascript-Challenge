@@ -201,3 +201,10 @@ Note that it's a good practice to name the parameter that accepts each element a
 // 	if (movie === 'The Last Airbender') break;
 // 	console.log(movie);
 // }
+
+
+//The slice method always returns a new array and does not mutate (change) the source array
+movies => [ 'Spaceballs', 'The Sting', 'Alien' ]
+//console.log(movies)
+let lastTwoMovies = movies.slice(1, 3); // ['The Sting, 'Alien']
+console.log(lastTwoMovies)
