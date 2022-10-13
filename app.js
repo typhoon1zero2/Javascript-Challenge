@@ -208,3 +208,9 @@ Note that it's a good practice to name the parameter that accepts each element a
 //console.log(movies)
 //let lastTwoMovies = movies.slice(1, 3); // ['The Sting, 'Alien']
 // console.log(lastTwoMovies)
+
+//Copy All of an Array
+
+movies => [ 'Spaceballs', 'The Sting', 'Alien' ]
+let moviesCopy = [...movies];
+console.log(moviesCopy)
