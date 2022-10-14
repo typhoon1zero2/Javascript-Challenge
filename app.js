@@ -211,6 +211,6 @@ Note that it's a good practice to name the parameter that accepts each element a
 
 //Copy All of an Array
 
-movies => [ 'Spaceballs', 'The Sting', 'Alien' ]
-let moviesCopy = [...movies];
-console.log(moviesCopy)
+// movies => [ 'Spaceballs', 'The Sting', 'Alien' ]
+// let moviesCopy = [...movies];
+// console.log(moviesCopy)
