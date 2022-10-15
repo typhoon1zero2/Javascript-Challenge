@@ -222,6 +222,8 @@ Note that it's a good practice to name the parameter that accepts each element a
 */
 // Create 
 function fun() {
-    alert('this is a function')
+    alert('this is a function');
 }
 
+// call
+fun();
