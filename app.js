@@ -221,12 +221,12 @@ Note that it's a good practice to name the parameter that accepts each element a
     2. Call the function
 */
 // Create 
-function fun() {
-    console.log('this is a function');
-}
+// function fun() {
+//     console.log('this is a function');
+// }
 
 // call
-fun();
+//fun();
 
 /*
     Let's create a function that tale in a name and says hello followed by your name
@@ -238,8 +238,7 @@ fun();
 
 function greeting() {
     let name = prompt('What is your name?');
-    let result = 'Hello ' + name;
+    let result = 'Hello' + ' ' + name; // String catenation
     console.log(result);
 }
-
 greeting();
