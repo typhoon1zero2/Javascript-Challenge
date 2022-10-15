@@ -222,8 +222,24 @@ Note that it's a good practice to name the parameter that accepts each element a
 */
 // Create 
 function fun() {
-    alert('this is a function');
+    console.log('this is a function');
 }
 
 // call
 fun();
+
+/*
+    Let's create a function that tale in a name and says hello followed by your name
+
+    For ex:
+    Name: 'Phong'
+    Return: "hello Phong"
+*/
+
+function greeting() {
+    let name = prompt('What is your name?');
+    let result = 'Hello ' + name;
+    console.log(result);
+}
+
+greeting();
