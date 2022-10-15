@@ -214,3 +214,14 @@ Note that it's a good practice to name the parameter that accepts each element a
 // movies => [ 'Spaceballs', 'The Sting', 'Alien' ]
 // let moviesCopy = [...movies];
 // console.log(moviesCopy)
+
+/*
+    Day-1
+    1. Create a function
+    2. Call the function
+*/
+// Create 
+function fun() {
+    alert('this is a function')
+}
+
