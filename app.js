@@ -236,12 +236,15 @@ Note that it's a good practice to name the parameter that accepts each element a
     Return: "hello Phong"
 */
 
-function greeting() {
-    let name = prompt('What is your name?');
-    let result = 'Hello' + ' ' + name; // String concatenation
+
+function greeting(yourName) {
+    let result = 'Hello' + ' ' + yourName; // String concatenation
     console.log(result);
 }
-//greeting();
+
+let sumName = prompt('What is your name?');
+
+greeting(sumName);
 
 // How do arguments work in functions?
 // How do we add 2 numbers together in a function?
@@ -250,4 +253,4 @@ function sumNumbers(num1, num2){
     let result = num1 + num2;
     console.log(result);
 }
-sumNumbers(20, 20);
+sumNumbers(10, 10);
