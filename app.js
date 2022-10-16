@@ -257,10 +257,17 @@ Note that it's a good practice to name the parameter that accepts each element a
 
 /*
     Day -2
-    While loops
+    
 */
-let num = 0;
-while (num < 100 ){
-    num += 1;
+//While loops
+// let num = 0;
+// while (num < 100 ){
+//     num += 1;
+//     console.log(num)
+// }
+
+// For Loop
+for (let num = 0; num < 100; num++){
     console.log(num)
 }
+// They both are same.. for is easier
