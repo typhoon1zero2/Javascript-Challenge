@@ -237,20 +237,30 @@ Note that it's a good practice to name the parameter that accepts each element a
 */
 
 
-function greeting(yourName) {
-    let result = 'Hello' + ' ' + yourName; // String concatenation
-    console.log(result);
-}
+// function greeting(yourName) {
+//     let result = 'Hello' + ' ' + yourName; // String concatenation
+//     console.log(result);
+// }
 
-let sumName = prompt('What is your name?');
+// let sumName = prompt('What is your name?');
 
-greeting(sumName);
+// greeting(sumName);
 
 // How do arguments work in functions?
 // How do we add 2 numbers together in a function?
 
-function sumNumbers(num1, num2){
-    let result = num1 + num2;
-    console.log(result);
+// function sumNumbers(num1, num2){
+//     let result = num1 + num2;
+//     console.log(result);
+// }
+// sumNumbers(10, 10);
+
+/*
+    Day -2
+    While loops
+*/
+let num = 0;
+while (num < 100 ){
+    num += 1;
+    console.log(num)
 }
-sumNumbers(10, 10);
