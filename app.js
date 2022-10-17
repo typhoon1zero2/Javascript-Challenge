@@ -275,4 +275,12 @@ for (let num = 0; num < 100; num++){
 /*
     Day 3 
 */
-//Datatypes
+//Datatypes 7types
+let yourAge = 30; // Number
+let yourName = "phong"; // string
+let name = { first: 'phong', last: "doe"}; //object
+let truth = false; //boolean
+let groceries = ['apple', 'banana','oranges']; //array
+let random; // undefined
+let nothing = null; // value null
+
