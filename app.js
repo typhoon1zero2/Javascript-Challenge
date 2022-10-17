@@ -271,3 +271,8 @@ for (let num = 0; num < 100; num++){
     console.log(num)
 }
 // They both are same.. for is easier
+
+/*
+    Day 3 
+*/
+//Datatypes
